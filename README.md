@@ -51,25 +51,6 @@ Joins/
 | --- | --- | --- | --- |
 | 24 Oct 2026 | Subqueries | [Subqueries/24OCT2026-Subqueries](Subqueries/24OCT2026-Subqueries) | Practiced subqueries against the `Examinee` dataset |
 
-## Datasets
-
-### `Examinee.csv`
-
-A table of exam takers used for subquery practice.
-
-| Column | Description |
-| --- | --- |
-| `ExamineeID` | Unique ID for each examinee |
-| `Name` | Examinee's full name |
-| `School` | School the examinee came from |
-| `Status` | Status code (e.g., `IR`, `R`) |
-| `ContactNo` | Contact number |
-| `Address` | Home address |
-| `Graduated` | Year graduated |
-| `Score` | Exam score |
-
-The data includes repeated names, shared schools, and a mix of scores — useful for scalar subqueries, correlated subqueries, `IN`, `EXISTS`, and comparisons against aggregates.
-
 ## Roadmap
 
 Topics I want to cover, in rough order:
