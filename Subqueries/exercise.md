@@ -1,6 +1,6 @@
 # Exercise: MySQL Subqueries Practice
 
-> **Session Date:** 24 Oct 2026  
+> **Session Dates:** 24 Oct 2026 & 31 Oct 2026  
 > **Topic:** Subqueries (Scalar, Multi-row with `IN`, Derived Tables, and `OFFSET`)  
 > **Dataset:** [`Examinee.csv`](Examinee.csv)  
 > **Target Table:** `Examinee`

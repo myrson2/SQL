@@ -1,5 +1,9 @@
 # Title: Subqueries in MySQL
 
+> **Date:** October 24 & 31, 2026  
+> **Topic:** Subqueries in MySQL (Scalar, Multi-Row, Correlated, Derived Tables, and Performance)  
+> **Dialect:** MySQL  
+
 ---
 
 ## Definitions:

@@ -17,8 +17,10 @@ This repository is where I collect everything I learn about SQL: the concepts I 
 SQL/
 ├── README.md
 └── Subqueries/
-    └── 24OCT2026-Subqueries/
-        └── Examinee.csv
+    ├── lesson.md          # Comprehensive lesson notes (24 & 31 Oct 2026)
+    ├── exercise.md        # Practice problems & challenge prompts
+    ├── subqueries.sql     # Solution queries & worklog
+    └── Examinee.csv       # Dataset used for subquery practice
 ```
 
 Each topic gets its own folder, and each study session gets a dated subfolder inside it. This keeps a topic's history together while making it obvious when something was practiced.
@@ -47,9 +49,10 @@ Joins/
 
 ## Learning log
 
-| Date | Topic | Folder | What I worked on |
+| Date | Topic | Folder / Files | What I worked on |
 | --- | --- | --- | --- |
-| 24 Oct 2026 | Subqueries | [Subqueries/24OCT2026-Subqueries](Subqueries/24OCT2026-Subqueries) | Practiced subqueries against the `Examinee` dataset |
+| 24 Oct 2026 | Subqueries (Part 1) | [Subqueries/](Subqueries/) | Foundation of subqueries in MySQL: scalar subqueries in `WHERE`, comparing against aggregate benchmarks (`AVG`), address pattern filtering, and bottom score ranking against the `Examinee` dataset. |
+| 31 Oct 2026 | Subqueries (Part 2) | [Subqueries/](Subqueries/) | Multi-row subqueries, derived tables (`FROM` clause joins with mandatory table aliases), top-tier distinct score thresholds, `LIMIT` with `OFFSET` for rank tie-breaking, and comprehensive synthesis into [`lesson.md`](Subqueries/lesson.md). |
 
 ## Roadmap
 
